@@ -1,0 +1,180 @@
+.main{
+    min-height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./house.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.mainContainer{
+    background-color: rgba(3, 3, 3, 0.5);
+    background-blend-mode: multiply;
+    width: 30%;
+    height: 60vh;
+    border-radius: 1rem;
+}
+.mainRow1{
+    text-align: center;
+    padding-top: 10%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(193, 59, 14, 0.7);
+}
+.mainRow1 h5{
+    color: rgb(222, 196, 48);
+    font-weight: 500;
+}
+.mainRow2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50%;
+
+}
+.mainRow2 .loginBtn{
+    width: 30%;
+    height: 5vh;
+    border: none;
+    background-color: rgba(2, 68, 79);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.loginBtn:hover{
+    box-shadow: 1px 1px 5px 5px rgb(160, 160, 160, 0.8);
+    background-color:rgb(2, 65, 60);
+}
+.mainRow2 .signupBtn{
+    width: 30%;
+    height: 5vh;
+    border: none;
+    background-color: rgb(225, 86, 16);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width:769px) {
+    
+    .mainContainer{
+        background-blend-mode: multiply;
+        width: 60%;
+        height: 60%;
+        border-radius: 1rem;
+    }
+    .mainRow2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50%;
+        padding-bottom: 10%;
+    
+    }
+    .mainRow2 .loginBtn{
+        width: 30%;
+        height: 5vh;
+        border: none;
+        background-color: rgba(2, 68, 79);
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+
+    .mainRow2 .signupBtn{
+        width: 30%;
+        height: 5vh;
+        border: none;
+        background-color: rgb(225, 86, 16);
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width:1000px) {
+    .mainContainer{
+        background-blend-mode: multiply;
+        width: 60%;
+        height: 60%;
+        border-radius: 1rem;
+    }
+    .mainRow2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50%;
+        padding-bottom: 10%;
+    
+    }
+    
+    .mainRow2 .loginBtn{
+        width: 30%;
+        height: 5vh;
+        border: none;
+        background-color: rgba(2, 68, 79);
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .mainRow2 .signupBtn{
+        width: 30%;
+        height: 5vh;
+        border: none;
+        background-color: rgb(225, 86, 16);
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+@media (max-width:482px) {
+    .mainContainer{
+        width: 80%;
+        height: 60vh;
+        border-radius: 2px;
+    }
+    .mainRow1{
+        text-align: center;
+        padding-top: 8%;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(193, 59, 14, 0.7);
+    }
+    .mainRow1 h5{
+        color: rgb(222, 196, 48);
+        font-weight: 500;
+    }
+    .mainRow2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 65%;
+    
+    }
+    
+    .mainRow2 .loginBtn{
+        width: 30%;
+        height: 5vh;
+        border: none;
+        background-color: rgb(31, 112, 126);
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .mainRow2 .signupBtn{
+        width: 30%;
+        height: 5vh;
+        border: none;
+        background-color: rgb(225, 86, 16);
+        border-radius: 5px;
+        color: white;
+        font-size: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

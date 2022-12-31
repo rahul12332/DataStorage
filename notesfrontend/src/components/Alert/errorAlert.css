@@ -1,0 +1,16 @@
+.mainErrorAlert{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    }
+    .errorAlert{
+        background-color: hsl(0, 100%, 50%);
+        width: 40%;
+        text-align: center;
+    }
+    .errorAlert h4{
+        color: #f6f6fa;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }

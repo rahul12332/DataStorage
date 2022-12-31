@@ -1,0 +1,15 @@
+.mainAlert{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.sucessAlert{
+    background-color: #00ff00;
+    width: 40%;
+    text-align: center;
+}
+.sucessAlert h4{
+    color: #191970;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
